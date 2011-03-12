@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * Copyright (c) 2011, Jean-David Gadina <macmade@eosgarden.com>
+ * All rights reserved
+ ******************************************************************************/
+ 
+/* $Id$ */
+
+/*!
+ * @file        
+ * @copyright   eosgarden 2011 - Jean-David Gadina <macmade@eosgarden.com>
+ * @abstract    ...
+ */
+
+"OK"                        = "OK";
+"UninstallProgress"         = "Un-installation in progress";
+"UninstallProgressText"     = "Please wait till the end of the un-installation before quitting this un-installer.";
+"Sucess"                    = "Success";
+"DeactivateSuccess"         = "You copy of WebStart has been successfully deactivated.";
+
+"E_ACTIVATESN_UNKNOWN_SERVER_ERROR"     = "An unknown error occured by the eSellerate servers during activation.";
+"E_ACTIVATESN_UNKNOWN_ACTIVATION_KEY"   = "An unknown activation key was used.";
+"E_ACTIVATESN_UNKNOWN_SN"               = "An unknown serial number was used.";
+"E_ACTIVATESN_IMPROPER_USAGE"           = "Product activation was used improperly.";
+"E_ACTIVATESN_BLACKLISTED_SN"           = "Activation failed because the serial number is blacklisted.";
+"E_ACTIVATESN_INVALID_ORDER"            = "The serial number's corresponding order is invalid.";
+"E_ACTIVATESN_LIMIT_MET"                = "No more activations are allowed on this serial number.";
+"E_ACTIVATESN_NOT_UNIQUE"               = "Activation failed because the serial number is not unique.";
+"E_ACTIVATESN_FINALIZATION_ERROR"       = "The activation routines couldn't complete the activation on the host machine.";

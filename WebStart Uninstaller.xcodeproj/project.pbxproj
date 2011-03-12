@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0521A010131FCD070038B747 /* ESell.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0580F417131F742C002DF62F /* ESell.framework */; };
+		0580F419131F742C002DF62F /* ESell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0580F417131F742C002DF62F /* ESell.framework */; };
+		05BFC7F513086E6800ABC29E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BFC7F413086E6800ABC29E /* Cocoa.framework */; };
+		05BFC7FF13086E6800ABC29E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05BFC7FD13086E6800ABC29E /* InfoPlist.strings */; };
+		05BFC80213086E6800ABC29E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BFC80113086E6800ABC29E /* main.m */; };
+		05BFC82413086F6800ABC29E /* Application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 05BFC81A13086F6800ABC29E /* Application.icns */; };
+		05BFC82513086F6800ABC29E /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BFC81C13086F6800ABC29E /* ApplicationController.m */; };
+		05BFC82613086F6800ABC29E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BFC81D13086F6800ABC29E /* ApplicationDelegate.m */; };
+		05BFC82713086F6800ABC29E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BFC82213086F6800ABC29E /* MainMenu.xib */; };
+		05BFC8401308702800ABC29E /* NL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BFC83F1308702800ABC29E /* NL.framework */; };
+		05BFC8441308703400ABC29E /* NL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05BFC83F1308702800ABC29E /* NL.framework */; };
+		05C2D3E4130945C600CC8912 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05C2D3E2130945C600CC8912 /* Localizable.strings */; };
+		05C32EF61308992F00D0C1A3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C32EF41308992F00D0C1A3 /* MainWindow.xib */; };
+		05C32EF81308997400D0C1A3 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C32EF71308997400D0C1A3 /* MainWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0580F40B131F73F0002DF62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0580F403131F73F0002DF62F /* ESellerate.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0517B2E4131E5F620036FC8B;
+			remoteInfo = "ESellerate (Public)";
+		};
+		0580F40D131F73F0002DF62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0580F403131F73F0002DF62F /* ESellerate.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0517B352131E6AEF0036FC8B;
+			remoteInfo = "ESellerate (Private)";
+		};
+		05BFC8381308700200ABC29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BFC8301308700200ABC29E /* NutShell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05B7571A12E807E600C5DF5B;
+			remoteInfo = "NutShell (Public)";
+		};
+		05BFC83A1308700200ABC29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BFC8301308700200ABC29E /* NutShell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0575ED8812E89230005E2DC0;
+			remoteInfo = "NutShell (Private)";
+		};
+		05BFC8411308702E00ABC29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BFC8301308700200ABC29E /* NutShell.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0575ED8712E89230005E2DC0;
+			remoteInfo = "NutShell (Private)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05BFC8431308703100ABC29E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05BFC8441308703400ABC29E /* NL.framework in CopyFiles */,
+				0521A010131FCD070038B747 /* ESell.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0580F403131F73F0002DF62F /* ESellerate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESellerate.xcodeproj; path = ../../../Frameworks/ESellerate/trunk/ESellerate.xcodeproj; sourceTree = "<group>"; };
+		0580F416131F742C002DF62F /* ESellerate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ESellerate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0580F417131F742C002DF62F /* ESell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ESell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0580F41A131F7432002DF62F /* NutShell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NutShell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BFC7F013086E6800ABC29E /* WebStart Uninstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebStart Uninstaller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BFC7F413086E6800ABC29E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		05BFC7F713086E6800ABC29E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		05BFC7F813086E6800ABC29E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05BFC7F913086E6800ABC29E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05BFC7FC13086E6800ABC29E /* WebStart_Uninstaller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebStart_Uninstaller-Info.plist"; sourceTree = "<group>"; };
+		05BFC7FE13086E6800ABC29E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05BFC80013086E6800ABC29E /* WebStart_Uninstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebStart_Uninstaller-Prefix.pch"; sourceTree = "<group>"; };
+		05BFC80113086E6800ABC29E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05BFC81A13086F6800ABC29E /* Application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Application.icns; sourceTree = "<group>"; };
+		05BFC81C13086F6800ABC29E /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationController.m; sourceTree = "<group>"; };
+		05BFC81D13086F6800ABC29E /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		05BFC81F13086F6800ABC29E /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; };
+		05BFC82013086F6800ABC29E /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		05BFC82313086F6800ABC29E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05BFC8301308700200ABC29E /* NutShell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NutShell.xcodeproj; path = ../../../Frameworks/NutShell/trunk/NutShell.xcodeproj; sourceTree = "<group>"; };
+		05BFC83F1308702800ABC29E /* NL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BFC8461308709500ABC29E /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		05C2D3E3130945C600CC8912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05C32EF51308992F00D0C1A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		05C32EF71308997400D0C1A3 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		05C32EF91308998100D0C1A3 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BFC7ED13086E6800ABC29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BFC7F513086E6800ABC29E /* Cocoa.framework in Frameworks */,
+				05BFC8401308702800ABC29E /* NL.framework in Frameworks */,
+				0580F419131F742C002DF62F /* ESell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0580F404131F73F0002DF62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0580F40C131F73F0002DF62F /* ESellerate.framework */,
+				0580F40E131F73F0002DF62F /* ESell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BFC7E513086E6800ABC29E = {
+			isa = PBXGroup;
+			children = (
+				0580F403131F73F0002DF62F /* ESellerate.xcodeproj */,
+				05BFC8301308700200ABC29E /* NutShell.xcodeproj */,
+				05BFC7FA13086E6800ABC29E /* WebStart Uninstaller */,
+				05BFC7F313086E6800ABC29E /* Frameworks */,
+				05BFC7F113086E6800ABC29E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05BFC7F113086E6800ABC29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC7F013086E6800ABC29E /* WebStart Uninstaller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BFC7F313086E6800ABC29E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0580F41A131F7432002DF62F /* NutShell.framework */,
+				05BFC83F1308702800ABC29E /* NL.framework */,
+				0580F416131F742C002DF62F /* ESellerate.framework */,
+				0580F417131F742C002DF62F /* ESell.framework */,
+				05BFC7F413086E6800ABC29E /* Cocoa.framework */,
+				05BFC7F613086E6800ABC29E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05BFC7F613086E6800ABC29E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC7F713086E6800ABC29E /* AppKit.framework */,
+				05BFC7F813086E6800ABC29E /* CoreData.framework */,
+				05BFC7F913086E6800ABC29E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		05BFC7FA13086E6800ABC29E /* WebStart Uninstaller */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC81B13086F6800ABC29E /* Classes */,
+				05BFC82113086F6800ABC29E /* UI */,
+				05BFC7FB13086E6800ABC29E /* Supporting Files */,
+			);
+			path = "WebStart Uninstaller";
+			sourceTree = "<group>";
+		};
+		05BFC7FB13086E6800ABC29E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC8451308709500ABC29E /* include */,
+				05BFC81A13086F6800ABC29E /* Application.icns */,
+				05BFC7FC13086E6800ABC29E /* WebStart_Uninstaller-Info.plist */,
+				05BFC7FD13086E6800ABC29E /* InfoPlist.strings */,
+				05BFC80013086E6800ABC29E /* WebStart_Uninstaller-Prefix.pch */,
+				05BFC80113086E6800ABC29E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05BFC81B13086F6800ABC29E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC81C13086F6800ABC29E /* ApplicationController.m */,
+				05BFC81D13086F6800ABC29E /* ApplicationDelegate.m */,
+				05C32EF71308997400D0C1A3 /* MainWindowController.m */,
+				05BFC81E13086F6800ABC29E /* include */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		05BFC81E13086F6800ABC29E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC81F13086F6800ABC29E /* ApplicationController.h */,
+				05BFC82013086F6800ABC29E /* ApplicationDelegate.h */,
+				05C32EF91308998100D0C1A3 /* MainWindowController.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		05BFC82113086F6800ABC29E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				05C2D3E2130945C600CC8912 /* Localizable.strings */,
+				05BFC82213086F6800ABC29E /* MainMenu.xib */,
+				05C32EF41308992F00D0C1A3 /* MainWindow.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		05BFC8311308700200ABC29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC8391308700200ABC29E /* NutShell.framework */,
+				05BFC83B1308700200ABC29E /* NL.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BFC8451308709500ABC29E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				05BFC8461308709500ABC29E /* macros.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BFC7EF13086E6800ABC29E /* WebStart Uninstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BFC80E13086E6800ABC29E /* Build configuration list for PBXNativeTarget "WebStart Uninstaller" */;
+			buildPhases = (
+				05BFC7EC13086E6800ABC29E /* Sources */,
+				05BFC7ED13086E6800ABC29E /* Frameworks */,
+				05BFC7EE13086E6800ABC29E /* Resources */,
+				05BFC8431308703100ABC29E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BFC8421308702E00ABC29E /* PBXTargetDependency */,
+			);
+			name = "WebStart Uninstaller";
+			productName = "WebStart Uninstaller";
+			productReference = 05BFC7F013086E6800ABC29E /* WebStart Uninstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BFC7E713086E6800ABC29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = eosgarden;
+			};
+			buildConfigurationList = 05BFC7EA13086E6800ABC29E /* Build configuration list for PBXProject "WebStart Uninstaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05BFC7E513086E6800ABC29E;
+			productRefGroup = 05BFC7F113086E6800ABC29E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0580F404131F73F0002DF62F /* Products */;
+					ProjectRef = 0580F403131F73F0002DF62F /* ESellerate.xcodeproj */;
+				},
+				{
+					ProductGroup = 05BFC8311308700200ABC29E /* Products */;
+					ProjectRef = 05BFC8301308700200ABC29E /* NutShell.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				05BFC7EF13086E6800ABC29E /* WebStart Uninstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0580F40C131F73F0002DF62F /* ESellerate.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ESellerate.framework;
+			remoteRef = 0580F40B131F73F0002DF62F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0580F40E131F73F0002DF62F /* ESell.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ESell.framework;
+			remoteRef = 0580F40D131F73F0002DF62F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05BFC8391308700200ABC29E /* NutShell.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NutShell.framework;
+			remoteRef = 05BFC8381308700200ABC29E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05BFC83B1308700200ABC29E /* NL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NL.framework;
+			remoteRef = 05BFC83A1308700200ABC29E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BFC7EE13086E6800ABC29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BFC7FF13086E6800ABC29E /* InfoPlist.strings in Resources */,
+				05BFC82413086F6800ABC29E /* Application.icns in Resources */,
+				05BFC82713086F6800ABC29E /* MainMenu.xib in Resources */,
+				05C32EF61308992F00D0C1A3 /* MainWindow.xib in Resources */,
+				05C2D3E4130945C600CC8912 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BFC7EC13086E6800ABC29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BFC80213086E6800ABC29E /* main.m in Sources */,
+				05BFC82513086F6800ABC29E /* ApplicationController.m in Sources */,
+				05BFC82613086F6800ABC29E /* ApplicationDelegate.m in Sources */,
+				05C32EF81308997400D0C1A3 /* MainWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BFC8421308702E00ABC29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NutShell (Private)";
+			targetProxy = 05BFC8411308702E00ABC29E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05BFC7FD13086E6800ABC29E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BFC7FE13086E6800ABC29E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05BFC82213086F6800ABC29E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BFC82313086F6800ABC29E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		05C2D3E2130945C600CC8912 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C2D3E3130945C600CC8912 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		05C32EF41308992F00D0C1A3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C32EF51308992F00D0C1A3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05BFC80C13086E6800ABC29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+					"-Wbad-function-cast",
+					"-Wmissing-declarations",
+					"-Wmissing-prototypes",
+					"-Wnested-externs",
+					"-Wold-style-definition",
+					"-Wstrict-prototypes",
+					"-Wdeclaration-after-statement",
+				);
+			};
+			name = Debug;
+		};
+		05BFC80D13086E6800ABC29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+					"-Wbad-function-cast",
+					"-Wmissing-declarations",
+					"-Wmissing-prototypes",
+					"-Wnested-externs",
+					"-Wold-style-definition",
+					"-Wstrict-prototypes",
+					"-Wdeclaration-after-statement",
+				);
+			};
+			name = Release;
+		};
+		05BFC80F13086E6800ABC29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebStart Uninstaller/WebStart_Uninstaller-Prefix.pch";
+				INFOPLIST_FILE = "WebStart Uninstaller/WebStart_Uninstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05BFC81013086E6800ABC29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebStart Uninstaller/WebStart_Uninstaller-Prefix.pch";
+				INFOPLIST_FILE = "WebStart Uninstaller/WebStart_Uninstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BFC7EA13086E6800ABC29E /* Build configuration list for PBXProject "WebStart Uninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BFC80C13086E6800ABC29E /* Debug */,
+				05BFC80D13086E6800ABC29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BFC80E13086E6800ABC29E /* Build configuration list for PBXNativeTarget "WebStart Uninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BFC80F13086E6800ABC29E /* Debug */,
+				05BFC81013086E6800ABC29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BFC7E713086E6800ABC29E /* Project object */;
+}
