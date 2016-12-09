@@ -28,11 +28,7 @@
 - ( id )init
 {
     if( ( self = [ super initWithWindowNibName: @"MainWindow" ] ) )
-    {
-        [ ESellerate setPublisherId:  @"PUB9310734649" ];
-        [ ESellerate setActivationId: @"ACT7252581145:CT2UD7-PLFY-JN1TXT-0FWE-3QP1JK-5WQRF0-1Z0W-DAAU3V-J89E-EDCYRT" ];
-        [ ESellerate setSerialKey:    @"NXJK-XYBM-VHH6-329P-XCY5" ];
-    }
+    {}
     
     return self;
 }
@@ -108,12 +104,10 @@
 - ( IBAction )deactivate: ( id )sender
 {
     NSAlert * alert;
-    OSStatus  status;
     
     [ activateProgress setHidden: NO ];
     [ activateProgress startAnimation: nil ];
     
-    status = [ [ ESellerate sharedInstance ] deactivateSerialNumber: [ serialField stringValue ] ];
     alert  = [ [ NSAlert alloc ] init ];
     
     [ activateProgress setHidden: YES ];
@@ -121,67 +115,10 @@
     
     [ alert addButtonWithTitle:  L10N( @"OK" ) ];
     [ alert setMessageText:      L10N( @"Error" ) ];
-    [ alert setAlertStyle: NSCriticalAlertStyle ];
-    
-    switch( status )
-    {
-        case E_SUCCESS:
-            
-            [ alert setMessageText:      L10N( @"Success" ) ];
-            [ alert setInformativeText:  L10N( @"DeactivateSuccess" ) ];
-            break;
-            
-        case E_ACTIVATESN_UNKNOWN_SERVER_ERROR:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_UNKNOWN_SERVER_ERROR" ) ];
-            break;
-            
-        case E_ACTIVATESN_UNKNOWN_ACTIVATION_KEY:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_UNKNOWN_ACTIVATION_KEY" ) ];
-            break;
-            
-        case E_ACTIVATESN_UNKNOWN_SN:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_UNKNOWN_SN" ) ];
-            break;
-            
-        case E_ACTIVATESN_IMPROPER_USAGE:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_IMPROPER_USAGE" ) ];
-            break;
-            
-        case E_ACTIVATESN_BLACKLISTED_SN:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_BLACKLISTED_SN" ) ];
-            break;
-            
-        case E_ACTIVATESN_INVALID_ORDER:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_INVALID_ORDER" ) ];
-            break;
-            
-        case E_ACTIVATESN_LIMIT_MET:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_LIMIT_MET" ) ];
-            break;
-            
-        case E_ACTIVATESN_NOT_UNIQUE:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_NOT_UNIQUE" ) ];
-            break;
-            
-        case E_ACTIVATESN_FINALIZATION_ERROR:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_FINALIZATION_ERROR" ) ];
-            break;
-            
-        default:
-            
-            [ alert setInformativeText:  L10N( @"E_ACTIVATESN_UNKNOWN_SERVER_ERROR" ) ];
-            break;
-    }
-    
+    [ alert setAlertStyle:       NSCriticalAlertStyle ];
+    [ alert setMessageText:      L10N( @"Success" ) ];
+    [ alert setInformativeText:  L10N( @"DeactivateSuccess" ) ];
+        
     NSBeep();
     
     [ alert runModal ];

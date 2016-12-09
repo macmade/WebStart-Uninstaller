@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C1B0767CBDBE25F42A9383011C2D75B703D6A28E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C1B0767CBDBE25F42A9383011C2D75B703D6A28E" : 9223372036854775807,
+    "1F922DDCA54C78F54B4B48714CD1AAF4AAE9D3A6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "62903329-DF61-421D-B357-E7F4F03AF364",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C1B0767CBDBE25F42A9383011C2D75B703D6A28E" : "WebStart-Uninstaller\/",
+    "1F922DDCA54C78F54B4B48714CD1AAF4AAE9D3A6" : "WebStart-Uninstaller\/Submodules\/NutShell\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WebStart Uninstaller",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WebStart Uninstaller.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/macmade\/NutShell.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F922DDCA54C78F54B4B48714CD1AAF4AAE9D3A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:macmade\/WebStart-Uninstaller.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1B0767CBDBE25F42A9383011C2D75B703D6A28E"
+    }
+  ]
+}

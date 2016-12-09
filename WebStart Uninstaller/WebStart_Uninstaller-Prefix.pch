@@ -15,6 +15,5 @@
     #import <Cocoa/Cocoa.h>
     #import <NutShell/NutShell.h>
     #import <NutShell/NutShellUI.h>
-    #import <ESellerate/ESellerate.h>
     #import "macros.h"
 #endif

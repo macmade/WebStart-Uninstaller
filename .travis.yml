@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: WebStart Uninstaller.xcodeproj
+xcode_scheme: WebStart Uninstaller
+
